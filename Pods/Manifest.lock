@@ -1,0 +1,64 @@
+PODS:
+  - AWSAPIGateway (2.9.7):
+    - AWSCore (= 2.9.7)
+  - AWSAuthCore (2.9.7):
+    - AWSCore (= 2.9.7)
+  - AWSAuthUI (2.9.7):
+    - AWSAuthCore (= 2.9.7)
+    - AWSCore (= 2.9.7)
+  - AWSCognitoIdentityProvider (2.9.7):
+    - AWSCognitoIdentityProviderASF (= 1.0.1)
+    - AWSCore (= 2.9.7)
+  - AWSCognitoIdentityProviderASF (1.0.1)
+  - AWSCore (2.9.7)
+  - AWSMobileClient (2.9.7):
+    - AWSAuthCore (= 2.9.7)
+    - AWSCognitoIdentityProvider (= 2.9.7)
+  - AWSUserPoolsSignIn (2.9.7):
+    - AWSAuthCore (= 2.9.7)
+    - AWSCognitoIdentityProvider (= 2.9.7)
+  - RxCocoa (5.0.0):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.0.0):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.0)
+
+DEPENDENCIES:
+  - AWSAPIGateway
+  - AWSAuthUI (~> 2.9.0)
+  - AWSMobileClient (~> 2.9.0)
+  - AWSUserPoolsSignIn (~> 2.9.0)
+  - RxCocoa (~> 5)
+  - RxSwift (~> 5)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AWSAPIGateway
+    - AWSAuthCore
+    - AWSAuthUI
+    - AWSCognitoIdentityProvider
+    - AWSCognitoIdentityProviderASF
+    - AWSCore
+    - AWSMobileClient
+    - AWSUserPoolsSignIn
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+
+SPEC CHECKSUMS:
+  AWSAPIGateway: b96601b75bb34707e142d8707ae6f240ad37f2d0
+  AWSAuthCore: 567cf5aaeda128c6d6398279a31dcb790b4ae455
+  AWSAuthUI: d82396106fee4c81ee5fa59cac4c56249c6fe0f9
+  AWSCognitoIdentityProvider: 09ad7e72a64a2377180d59063ce3509cf019b515
+  AWSCognitoIdentityProviderASF: f94f1a502e72ef3d0a1de93e10bf7a79c8698118
+  AWSCore: c98ab96784580d7a141c6f1999aa919ef45a312c
+  AWSMobileClient: 6bd1c5ea125af56fd97692a27a7f545fa149304c
+  AWSUserPoolsSignIn: 76299c588a3a8f2352f81b0bc17cb50742895e1c
+  RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
+  RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
+  RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
+
+PODFILE CHECKSUM: 5f2a28d7427a185ca6112e73f24006e1458f561e
+
+COCOAPODS: 1.6.1

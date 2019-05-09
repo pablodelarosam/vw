@@ -1,0 +1,6 @@
+framework module Pods_YoSoyVW {
+  umbrella header "Pods-YoSoyVW-umbrella.h"
+
+  export *
+  module * { export * }
+}

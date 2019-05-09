@@ -1,0 +1,19 @@
+{
+    "ios": {
+        "awscloudformation": {
+            "AuthRoleName": "yosoyvw-20190507115444-authRole",
+            "UnauthRoleArn": "arn:aws:iam::687887295015:role/yosoyvw-20190507115444-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::687887295015:role/yosoyvw-20190507115444-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "yosoyvw-20190507115444-deployment",
+            "UnauthRoleName": "yosoyvw-20190507115444-unauthRole",
+            "StackName": "yosoyvw-20190507115444",
+            "StackId": "arn:aws:cloudformation:us-east-1:687887295015:stack/yosoyvw-20190507115444/d13dc280-70e8-11e9-bf21-0af7a73fd784"
+        },
+        "categories": {
+            "auth": {
+                "cognitob91b8616": {}
+            }
+        }
+    }
+}
